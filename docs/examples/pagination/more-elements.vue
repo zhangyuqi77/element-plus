@@ -67,7 +67,7 @@
       :small="small"
       :disabled="disabled"
       :background="background"
-      layout="total, sizes, prev, pager, next, jumper"
+      layout="sizes, prev, pager, next, jumper,total"
       :total="400"
       @size-change="handleSizeChange"
       @current-change="handleCurrentChange"
